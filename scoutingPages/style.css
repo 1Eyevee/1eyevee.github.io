@@ -1,0 +1,101 @@
+:root{
+    --accent-color: #eed049;
+    --base-color: #303030;
+    --text-color: #FFF;
+    --input-text-color: #303030;
+    --input-color: #F3F0FF;
+    --purple-color: #5e1383;
+  }
+html{
+    font-family: Poppins, Segoe UI, sans-serif;
+    font-size: 12pt;
+    color: var(--text-color);
+    text-align: center;
+}
+
+body{
+    background-color: var(--base-color);
+    background-size: cover;
+    background-position: right;
+    overflow: auto;
+}
+
+h1{
+    font-size: 70px;
+    color: var(--accent-color);
+}
+
+h2{
+    font-size: 50px;
+    margin-bottom: 10px;
+    color:var(--accent-color);
+    text-decoration: underline;
+}
+
+label{
+    font-size: 30px;
+    font-weight: 40px;
+    color: var(--accent-color);
+}
+
+form{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+form input{
+    height: 50px;
+    width: 300px;
+    padding-left: 10px;
+    font-size: 25px;
+    border: 2px solid var(--accent-color);
+    background-color: var(--input-color);
+    transition: 150ms ease;
+    color: var(--accent-color);
+    background-color: var(--base-color);
+    border-radius: 20px;
+}
+
+input[type="checkbox"] {
+    width: 1.5em;
+    height: 1.5em;
+    border-color: var(--accent-color);
+    accent-color: var(--accent-color);
+}
+
+input[type="radio"] {
+    width: 1.5em;
+    height: 1.5em;
+    border-color: var(--accent-color);
+    accent-color: var(--accent-color);
+}
+
+.autoDo{
+    margin-top: 10px;
+    height: 35px;
+    width: 300px;
+}
+
+span{
+    font-size: 20px;
+    font-weight: 15px;
+    color:var(--accent-color);
+}
+
+form button{
+    margin-top: 10px;
+    border: none;
+    border-radius: 1000px;
+    padding: .85em 4em;
+    background-color: var(--accent-color);
+    color: var(--base-color);
+    font: inherit;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 150ms ease;
+}

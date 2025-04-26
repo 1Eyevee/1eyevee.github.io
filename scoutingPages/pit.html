@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="validation.js" defer></script>
+</head>
+<body>
+  <div class="wrapper">
+    <h1>Pit Scouting</h1>
+    <form id="form" action="new.html">
+        <div>
+          <label for="team-name">
+          </label>
+          <input type="text" name="teamName" id="team-name" placeholder="Team Name:">
+        </div>
+        <div>
+          <label for="team-num">
+          </label>
+          <input type="number" name="teamNum" id="team-num" placeholder="Team Number:">
+        </div>
+        <div>
+            <label for="drive-type">
+            </label>
+            <input type="text" name="drive" id="drive-type" placeholder="Drive Type: ">
+        </div>
+        <div>
+            <h2>Intake</h2>
+            <label class="check" for="inatke-type">Coral Inatake Type
+            </label>
+            <br>
+            <span>Coral Station</span>
+            <input type="checkbox" id="station" name="station" value="station">
+            <br>
+            <span>Ground Intake</span>
+            <input type="checkbox" id="ground" name="ground" value="ground">
+            <br>
+            <br>
+
+            <label class="check" for="alagae-type">Alagae Intake
+            </label>
+            <br>
+            <span>Ground Intake</span>
+            <input type="checkbox" id="groundPickup" name="groundPickup" value="groundPickup">
+            <br>
+            <span>Reef Intake</span>
+            <input type="checkbox" id="reef" name="reef" value="reef">
+            <br>
+            <br>
+
+            <h2>Scoring</h2>
+            <label class="check" for="coral-score-type">Coral Scoring
+            </label>
+            <br>
+            <span>L1</span>
+            <input type="checkbox" id="l1" name="l1" value="l1">
+            <span>L2</span>
+            <input type="checkbox" id="l2" name="l2" value="l2">
+            <span>L3</span>
+            <input type="checkbox" id="l3" name="l3" value="l3">
+            <span>L4</span>
+            <input type="checkbox" id="l4" name="l4" value="l4">
+            <br>
+            <br>
+
+            <label class="check" for="alagae-score-type">Algae Scoring
+            </label>
+            <br>
+            <span>Processor</span>
+            <input type="checkbox" id="process" name="process" value="process">
+            <br>
+            <span>Barge</span>
+            <input type="checkbox" id="barge" name="barge" value="barge">
+            <br>
+
+            <h2>Auto</h2>
+            <label class="check" for="leave">Leave the line</label>
+            <br>
+            <span>Yes</span>
+            <input type="radio" id="leaveLineYes" name="leaveLineYes" value="leaveLineYes">
+            <span>No</span>
+            <input type="radio" id="leaveLineNo" name="leaveLineNo" value="leaveLineNo">
+            <br>
+            <br>
+
+            <label for="auto-Type">Auto Type</label>
+            <br>
+            <br>
+            <span>What can their auto do?</span>
+            <br>
+            <input class="autoDo" type="text" id="autoDo" name="autoDo" placeholder="1 coral, 2 coral...">
+            <br>
+
+            <h2>Picture</h2>
+            <label class="check" for="robot-picture">Robot Picture</label>
+            <br>
+            <input class="autoDo" type="file" id="robot-picture" name="robot-picture" value="robot-picture">
+            <br>
+            <br>
+        </div>
+        <button type="submit">Login</button>
+    </form>
+  </div>
+</body>
+</html>
